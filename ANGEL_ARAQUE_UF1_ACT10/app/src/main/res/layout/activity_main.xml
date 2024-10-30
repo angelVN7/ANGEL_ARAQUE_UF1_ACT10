@@ -74,7 +74,7 @@
         android:id="@+id/ConstraintButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/contraint_laoyout"
+        android:text="@string/constraint_layout"
         android:textSize="16sp" />
 
 </LinearLayout>

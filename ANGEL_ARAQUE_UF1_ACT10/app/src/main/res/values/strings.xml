@@ -6,6 +6,7 @@
     <string name="usuari">Usuari</string>
     <string name="registre">Enviar</string>
     <string name="password">Password</string>
-    <string name="contraint_laoyout">Contraint Laoyout</string>
+    <string name="constraint_layout">Constraint Layout</string>
     <string name="relative_layout">Relative Layout</string>
+    <string name="linear_layout">Linear Layout</string>
 </resources>

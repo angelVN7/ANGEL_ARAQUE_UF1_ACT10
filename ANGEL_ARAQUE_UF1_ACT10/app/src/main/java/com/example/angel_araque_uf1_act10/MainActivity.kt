@@ -1,5 +1,6 @@
 package com.example.angel_araque_uf1_act10
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -12,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val registrarse:Button = findViewById(R.id.registro)
+        val relative:Button = findViewById(R.id.RelativeButton)
+        val constraint:Button = findViewById(R.id.ConstraintButton)
         val nombre:EditText = findViewById(R.id.nombre)
         val apellido:EditText = findViewById(R.id.apellido)
         val edad:EditText = findViewById(R.id.edad)
@@ -25,5 +28,16 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Registro completado",Toast.LENGTH_SHORT).show()
         }
 
+        relative.setOnClickListener()
+        {
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
+        }
+
+        constraint.setOnClickListener()
+        {
+            val intent = Intent(this, MainActivity3::class.java)
+            startActivity(intent)
+        }
     }
 }
